@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Flat mieszkanie1=new Flat(2,"Wrocław", true);
+        System.out.println(mieszkanie1);
     }
 }
