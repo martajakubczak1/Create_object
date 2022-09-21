@@ -6,6 +6,8 @@ public class Flat {
         this.balcony=balcony;
         this.floor=floor;
         this.city=city;
-
+    }
+    public int getFloor(){
+        return floor;
     }
 }
