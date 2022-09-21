@@ -10,4 +10,13 @@ public class Flat {
     public int getFloor(){
         return floor;
     }
+
+    public String getCity() {
+        return city;
+    }
+
+    public boolean getBalcony() {
+        return balcony;
+
+    }
 }
