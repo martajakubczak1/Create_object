@@ -19,4 +19,9 @@ public class Flat {
         return balcony;
 
     }
+
+    public void setBalcony(boolean balcony){
+        this.balcony=balcony;
+
+    }
 }
