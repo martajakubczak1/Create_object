@@ -1,7 +1,7 @@
 public class Flat {
-    int floor;
-    String city;
-    boolean balcony;
+    private int floor;
+    private String city;
+    private boolean balcony;
     Flat(int floor, String city, boolean balcony){
         this.balcony=balcony;
         this.floor=floor;
@@ -24,4 +24,10 @@ public class Flat {
         this.balcony=balcony;
 
     }
+    public void setCity(String city){
+        this.city=city;
+
+    }
 }
+
+
